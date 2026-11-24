@@ -1,0 +1,86 @@
+#showtooltip Stealth
+/cast [mod:alt] stealth
+/cast !Stealth
+/cleartarget
+/targetenemyplayer
+/cast [harm, nodead] sap
+/stopattack
+
+#showtooltip Sap
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast Pick Pocket
+/cast [@mouseover,harm,exists,nodead] Sap; Sap
+/cast [nostealth] stealth
+
+#showtooltip
+/cast Preparation
+/cast Vanish
+
+/focus [@mouseover]
+
+#showtooltip
+/cast [@focus] Kick
+
+#showtooltip Garrote
+/cast Pick Pocket
+/cast Garrote
+
+#showtooltip Ambush
+/cast Pick Pocket
+/cast Ambush
+
+#showtooltip Cheap Shot
+/cast Pick Pocket
+/cast Cheap Shot
+
+#showtooltip
+/cast [@focus] sap
+
+#showtooltip Sap
+/cast Vanish 
+/cast [@focus] Sap
+
+#showtooltip Sap
+/cast Preparation
+/cast Vanish 
+/cast [@focus] Sap
+
+#showtooltip Phantom Blade
+/equipslot 17  Phantom Blade
+
+#showtooltip
+/equipslot 17  WEAPON NAME HERE
+
+(--** spam macro to unlock and pick **--)
+#showtooltip Pick Lock
+/use Battered Junkbox
+/use Worn Junkbox
+/use Heavy Junkbox
+/use Sturdy Junkbox
+/cast Pick Lock
+/use Battered Junkbox
+/use Worn Junkbox
+/use Heavy Junkbox
+/use Sturdy Junkbox
+
+#showtooltip
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast [@mouseover,harm,exists,nodead] Pick Pocket; Pick Pocket
+/cast [nostealth] stealth
+
+#showtooltip shoot gun
+/cast !Shoot gun
+
+#showtooltip Slice and Dice
+/targetlasttarget
+/cast Slice and Dice
+/targetlasttarget
+
+/stopattack
+
+
+
+
+
